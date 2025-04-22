@@ -83,8 +83,8 @@ WSGI_APPLICATION = 'app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Use MySQL engine
-        'NAME': 'default_db1',                 # Your database name
-        'USER': 'default',                     # Your MySQL username
+        'NAME': 'cuabo2_db1',                 # Your database name
+        'USER': 'cuabo2',                     # Your MySQL username
         'PASSWORD': '123456',                  # Your MySQL password
         'HOST': 'localhost',                   # MySQL server host (localhost if on the same machine)
         'PORT': '3306',                        # MySQL default port
